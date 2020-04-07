@@ -3,7 +3,7 @@ allow init sysfs_devices_system_cpu:file { write };
 allow init sysfs:file { write open read };
 allow init sysfs_graphics:file { read open write };
 allow init sysfs_kgsl:file { read open write };
-allow init sysfs_fod:file { open write };
+allow init sysfs_fod:file { read open write };
 allow init sysfs_tp_fodstatus:file { write open };
 allow init sysfs_tp_fod_hbm:file { write open };
 allow init debugfs:file { write };
